@@ -73156,7 +73156,7 @@ this.cH()},
 oP(){var s=0,r=A.U(t.Yx),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e,d,c
 var $async$oP=A.V(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:$.aiN().toString
-l="https://t2lb.forkear.com/api/messages/"
+l="https://ttlb.forkear.com/api/messages/"
 A.alE()
 k=new A.ux(A.ay(t.Gf))
 p=4
