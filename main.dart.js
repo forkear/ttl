@@ -75185,7 +75185,7 @@ s=p.c
 s.toString
 r=A.m2(s,!1,t.b0)
 s=new A.ad7()
-q=new A.HC("Crea un mensaje :)",s,t.JX)
+q=new A.HC("crea un mensaje :)",s,t.JX)
 q.d=""
 q.Q=new A.ad8(p)
 q.as=p.ga2G()
