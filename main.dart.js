@@ -75663,7 +75663,7 @@ r8(a){return this.aar(a)},
 aar(a){var s=0,r=A.Q(t.xc),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e,d,c,b
 var $async$r8=A.R(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:$.lh().toString
-l="http://10.2.0.200/api/messages/"+A.j(a.a)+"/donate_time/"
+l="https://ttlb.forkear.com/api/messages/"+A.j(a.a)+"/donate_time/"
 A.EC()
 k=new A.jN(A.ay(t.Gf))
 p=4
@@ -75763,7 +75763,7 @@ Cv(a){return this.a9U(a)},
 a9U(a){var s=0,r=A.Q(t.yr),q,p=this
 var $async$Cv=A.R(function(b,c){if(b===1)return A.N(c,r)
 while(true)switch(s){case 0:$.lh().toString
-q=p.oN(0,"http://10.2.0.200/api/messages/",a)
+q=p.oN(0,"https://ttlb.forkear.com/api/messages/",a)
 s=1
 break
 case 1:return A.O(q,r)}})
@@ -75772,7 +75772,7 @@ BV(a,b){return this.a7B(a,b)},
 a7B(a,b){var s=0,r=A.Q(t.yr),q,p=this
 var $async$BV=A.R(function(c,d){if(c===1)return A.N(d,r)
 while(true)switch(s){case 0:$.lh().toString
-q=p.oN(0,"http://10.2.0.200/api/messages/"+A.j(a.a)+"/comments/",b)
+q=p.oN(0,"https://ttlb.forkear.com/api/messages/"+A.j(a.a)+"/comments/",b)
 s=1
 break
 case 1:return A.O(q,r)}})
@@ -75798,7 +75798,7 @@ A.xd.prototype={
 a2(){return new A.BF(B.i)}}
 A.BF.prototype={
 a2o(){return},
-au(){var s,r=this,q="http://10.2.0.200/api/messages/"
+au(){var s,r=this,q="https://ttlb.forkear.com/api/messages/"
 r.aL()
 $.lh().toString
 r.a.toString
@@ -75948,7 +75948,7 @@ a34(){return},
 au(){var s,r,q=this
 q.aL()
 $.lh().toString
-s="http://10.2.0.200"+q.a.c
+s="https://ttlb.forkear.com"+q.a.c
 q.d!==$&&A.cK()
 q.d=s
 r=q.c
