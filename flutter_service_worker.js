@@ -5,10 +5,10 @@ const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"js/croppie.min.js": "0380ad0a1bbf1f6c55d5c67a7ced16da",
 "js/exif.js": "b5d2a2507093fad88dca17efa4c1da53",
-"index.html": "0583548a69980d1a386503a3c32b6d91",
-"/": "0583548a69980d1a386503a3c32b6d91",
+"index.html": "34af7602535208d21ee28a63c439ff08",
+"/": "34af7602535208d21ee28a63c439ff08",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"main.dart.js": "1d1bf8146d2636655de8d302d46c5b36",
+"main.dart.js": "fd4e8f6246443c711a15c44b0c2bda63",
 "favicon.png": "5280cb02c15ae6f3f94786c1ed3e0f2e",
 "icons/512x512.png": "581604136adf3345aebaeaa92ed7f826",
 "icons/192x192.png": "bc143240b44f331f08989cc8cc36f818",
@@ -44,7 +44,7 @@ const RESOURCES = {"js/croppie.min.js": "0380ad0a1bbf1f6c55d5c67a7ced16da",
 "assets/AssetManifest.bin": "dd8127c6b878be271840df00390d4546",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
-"css/croppie.css": "37e447cb2af25dcf1a8abd89959523be"};
+"css/croppie.css": "a48a6285899710b9302280aa963868bb"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
