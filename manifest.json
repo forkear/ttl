@@ -1,11 +1,11 @@
 {
-    "name": "Time2Live",
+    "name": "t2Live",
     "short_name": "T2L",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#232933",
     "theme_color": "#232933",
-    "description": "Time2Live",
+    "description": "t2Live",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
