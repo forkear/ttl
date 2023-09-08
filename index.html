@@ -31,7 +31,7 @@
   </style>
 
   <script>
-    const serviceWorkerVersion = "1802666841";
+    const serviceWorkerVersion = "1231086653";
   </script>
   <script src="flutter.js" defer></script>
 </head>
@@ -45,11 +45,9 @@
         onEntrypointLoaded: function(engineInitializer) {
           engineInitializer.initializeEngine().then(function(appRunner) {
             appRunner.runApp();
-          });
-          /*.then(function (_) {
+          }).then(function (_) {
                  //const flutterRoot = document.getElementsByTagName('flt-glass-pane').item(0);
                  const flutterRoot = document.getElementsByTagName('flutter-view').item(0);
-                 
                  flutterRoot.addEventListener('touchstart', (e) => {
                    // is not near edge of view, exit
                    if (e.pageX > 24 && e.pageX < window.innerWidth - 24) return;
@@ -57,7 +55,6 @@
                    e.preventDefault(); 
                  });
                });
-               */
         }
       });
     });
