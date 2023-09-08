@@ -50347,8 +50347,8 @@ r=a7.a.x
 m=r==null?b1.c:r
 if(m==null){r=b3.c
 r.toString
-m=r}if(b7.q(0,B.u9)){a7.a.toString
-b7=b1.d
+m=r}if(b7.q(0,B.u9)){b7=a7.a.y
+if(b7==null)b7=b1.d
 if(b7==null)b7=b3.d
 l=b7==null?m:b7}else l=m
 a7.a.toString
@@ -50422,8 +50422,9 @@ b4=A.agZ(b8)
 b2=b2?B.z:a8
 a5=b4===B.Q?B.zj:B.zk
 a6=new A.kg(a8,a8,a8,a8,b2,a5.f,a5.r,a5.w)
-a7.a.toString
-b2=b1.e
+b2=a7.a
+b2=b2.Q
+if(b2==null)b2=b1.e
 if(b2==null)b2=b3.gbC(b3)
 a7.a.toString
 b4=b1.f
@@ -88205,7 +88206,7 @@ if(J.il(A.azG(o.a),"premium"))p.push(B.GL)
 p.push(A.zB(s,B.FV,new A.a_U(r),B.U2,s))
 o=A.atV(!0,A.aL_(new A.a_V(p),p.length,!1,new A.a_W(),!0))
 $.eC()
-return A.aAW(A.hN(A.b([new A.be(B.by,o,s),B.Ow,A.e7("v 0.0.2 ",s,s,s,s,s,s)],q),B.a0,B.ag,B.a1),s)}}
+return A.aAW(A.hN(A.b([new A.be(B.by,o,s),B.Ow,A.e7("v 0.0.2-1",s,s,s,s,s,s)],q),B.a0,B.ag,B.a1),s)}}
 A.a_U.prototype={
 $0(){this.a.AD()},
 $S:0}
@@ -88895,7 +88896,8 @@ ar(){this.aK()},
 F(a){var s,r=null
 this.d=A.br(a,r,t.w).w.a.b
 s=A.d0(r,r,B.j,r,r,r,r,r,r,r,r,A.O(a).RG.at.r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r)
-return A.lD(A.xa(r,r,!0,r,r,1,r,r,r,!1,r,!1,r,r,r,r,!0,r,r,r,r,r,A.ad9(r,r,B.ap,r,r,!0,r,A.c4(A.b([B.PE,A.c4(r,A.d0(r,r,A.O(a).ax.b,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),"2"),B.PD],t.VO),s,r),B.aO,r,r,1,B.a5),r,r,r,1,r),new A.uH("/api/messages/",r),r,A.aze(B.FW,!1,this.gam3(),"New Message"))},
+s=A.ad9(r,r,B.ap,r,r,!0,r,A.c4(A.b([B.PE,A.c4(r,A.d0(r,r,A.O(a).ax.b,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),"2"),B.PD],t.VO),s,r),B.aO,r,r,1,B.a5)
+return A.lD(A.xa(r,r,!0,A.O(a).ax.CW,r,0,r,r,r,!1,r,!1,r,r,r,r,!0,0,A.O(a).ax.CW,r,r,r,s,r,r,r,1,r),new A.uH("/api/messages/",r),r,A.aze(B.FW,!1,this.gam3(),"New Message"))},
 IB(){var s=0,r=A.N(t.z),q=this,p,o,n,m,l,k,j,i,h,g
 var $async$IB=A.J(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:g=q.c
