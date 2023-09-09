@@ -26203,7 +26203,7 @@ $1(a){var s=$.co
 s=(s==null?$.co=A.fp(self.window.flutterConfiguration):s).b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/b20183e04096094bcc37d9cde2a4b96f5cc684cf/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/b8d35810e91ab8fc39ba5e7a41bff6f697e8e3a8/":s)+a},
 $S:72}
 A.aoe.prototype={
 $1(a){this.a.remove()
@@ -81035,7 +81035,7 @@ if(J.i0(A.avK(o.a),"premium"))p.push(B.Fw)
 p.push(A.yx(s,B.EG,new A.YJ(r),B.Sh,s))
 o=A.aqk(!0,A.aG4(new A.YK(p),p.length,!1,new A.YL(),!0))
 $.eg()
-return A.awW(A.hr(A.b([new A.bb(B.bo,o,s),B.Nb,A.dP("v 0.0.2-3",s,s,s,s,s,s)],q),B.X,B.aa,B.Y),s)}}
+return A.awW(A.hr(A.b([new A.bb(B.bo,o,s),B.Nb,A.dP("v 0.0.2-4",s,s,s,s,s,s)],q),B.X,B.aa,B.Y),s)}}
 A.YJ.prototype={
 $0(){this.a.z1()},
 $S:0}

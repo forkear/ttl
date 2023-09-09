@@ -31,7 +31,7 @@
   </style>
 
   <script>
-    const serviceWorkerVersion = "3891539703";
+    const serviceWorkerVersion = "2645071854";
   </script>
   <script src="flutter.js" defer></script>
 </head>
@@ -43,7 +43,9 @@
           serviceWorkerVersion: serviceWorkerVersion,
         },
         onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
+          engineInitializer.initializeEngine({
+            useColorEmoji: true,
+          }).then(function(appRunner) {
             appRunner.runApp();
           }).then(function (_) {
                  //const flutterRoot = document.getElementsByTagName('flt-glass-pane').item(0);
